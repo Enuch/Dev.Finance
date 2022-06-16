@@ -1,0 +1,1 @@
+const TransactionController = new TransactionController();

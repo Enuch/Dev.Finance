@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Dev Finance</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1>Dev.Finance$</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="balance">
+            <h2>Balanço</h2>
+            <section class="card">
+                <h3 class="balance-title">Entradas</h3>
+                <p class="balance-value">R$ 2.000</p>
+            </section>
+            <section class="card">
+                <h3 class="balance-title">Saídas</h3>
+                <p class="balance-value">R$ 1.000</p>
+            </section>
+            <section class="card total">
+                <h3 class="balance-title">Total</h3>
+                <p class="balance-value">R$ 1.000</p>
+            </section>
+        </div>
+
+        <section id="transaction">
+            <h2>Transações</h2>
+            <div id="controles">
+                <input class="button new-transact" type="button" value="Nova Transação">
+                <input class="button edit-transact" type="button" value="Editar Transação">
+            </div>
+            
+            <table id="data-table">
+                <thead class="table-head">
+                    <tr>
+                        <th>Descrição</th>
+                        <th >Valor</th>
+                        <th >Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td class="description">Salário</td>
+                        <td class="income">R$ 1.680,00</td>
+                        <td class="date">20/04/2022</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="description">Leite</td>
+                        <td class="expense">R$ -20,00</td>
+                        <td class="date">20/04/2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
