@@ -1,0 +1,22 @@
+{
+  "name": "devfinance",
+  "version": "1.0.0",
+  "description": "app for controller your finances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enuch/Dev.Finance.git"
+  },
+  "author": "Enuch Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enuch/Dev.Finance/issues"
+  },
+  "homepage": "https://github.com/Enuch/Dev.Finance#readme",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
