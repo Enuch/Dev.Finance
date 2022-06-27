@@ -1,1 +1,1 @@
-const TransactionController = new TransactionController();
+let transactionController = new TransactionController();

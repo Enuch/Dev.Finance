@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="dist/img/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="dist/css/style.css">
     <title>Dev.Finance$</title>
 </head>
@@ -77,13 +78,18 @@
             <form id="form-transaction" action="submit" method="post">
                 <h3>Nova Transação</h3>
                 <label for="description">Descrição</label>
-                <input type="text" name="description" id="description">
+                <input type="text" name="description" class="input" id="description">
                 <label for="value">Valor</label>
-                <input type="number" name="value" id="value">
+                <input type="number" name="value" class="input" id="value">
+                <input class="button-insert" type="button" value="Cadastrar">
             </form>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/bf96dbb21e.js" crossorigin="anonymous"></script>
+    <script src="model/Transaction.js"></script>
+    <script src="database/TransactionDB.js"></script>
+    <script src="controller/TransactionController.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

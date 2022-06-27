@@ -204,13 +204,13 @@ table tbody tr td:first-child {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 #form-transaction {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 20.5rem;
+    height: 37.5rem;
     padding: .9375rem;
 
     border-radius: 5px;
@@ -223,12 +223,31 @@ table tbody tr td:first-child {
 }
 
 #form-transaction h3{
-    margin-bottom: 2rem;
+    margin-top: -12rem;
+    margin-bottom: 5rem;
     color: var(--gray-rich);
 }
-
-#form-transaction input{
+#form-transaction label, input {
     margin-bottom: 1rem;
+}
+
+#form-transaction .input {
+    padding: .3rem 1rem;
+}
+
+#form-transaction .button-insert {
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+
+    background-color: var(--blue-background);
+    color: aliceblue;
+}
+
+#form-transaction .button-insert:hover {
+    background-color: rgb(24, 91, 153);
 }
 
 @media (min-width: 810px) {
